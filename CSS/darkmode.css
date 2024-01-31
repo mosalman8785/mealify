@@ -1,0 +1,227 @@
+.sun,input[type="checkbox"]{
+    display: none ;
+}
+:root:has(#night:checked) .sun{
+    display: block;
+}
+:root:has(#night:checked) .container1{
+    background-color:var(--black2) ;
+}
+:root:has(#night:checked) .container1 .left h2{
+    color:var(--white);
+}
+:root:has(#night:checked) .container1 .left p{
+    color:var(--dark-pargraph);
+}
+:root:has(#night:checked) .container1 .left p{
+    color:var(--dark-pargraph);
+}
+:root:has(#night:checked) .container1 .btt1gr a{
+    background-color:var(--button-dark-color);
+}
+:root:has(#night:checked) .container1 .btt2gr a{
+    color: var(--white);
+}
+:root:has(#night:checked) .container1 .btt2gr:hover a{
+    color: var(--button-dark-color);
+}
+:root:has(#night:checked) .container1 .btt2gr:hover .fa-circle-play{
+    color: var(--button-dark-color);
+}
+:root:has(#night:checked) .contanier2{
+    background-color:var(--black3) ;
+}
+:root:has(#home:target):has(#night:checked) a[href="#home"]{
+    
+    color: var(--white);
+ }
+ :root:has(#chefs:target):has(#night:checked) a[href="#chefs"]{
+     
+     color: var(--white);
+ }
+ :root:has(#Gallery:target):has(#night:checked) a[href="#Gallery"]{
+     color: var(--white);
+ }
+ :root:has(#contact:target):has(#night:checked) a[href="#contact"]{
+     color: var(--white);
+ }
+:root:has(#night:checked) .sec2{
+    background-color:var(--black3) ;
+}
+:root:has(#night:checked) .head2 p {
+    color:var(--white) ;
+}
+:root:has(#night:checked) .head2 span {
+    color:var(--button-dark-color) ;
+}
+:root:has(#night:checked) .chef {
+   background-color: #000000 ;
+   box-shadow: none;
+}
+:root:has(#night:checked) .chef h3{
+ color: var(--white);
+ }
+ :root:has(#night:checked) .chef p{
+    color: var(--dark-pargraph);
+    }
+:root:has(#night:checked) .chef span{
+        color: var(--dark-pargraph);
+ }
+ :root:has(#night:checked) .container3{
+    background-color: var(--black2);
+}
+:root:has(#night:checked) .head3 p{
+    color: var(--white);
+}
+:root:has(#night:checked) .head3 span{
+    color: var(--button-dark-color);
+}
+:root:has(#night:checked) .sec3{
+    background-color: var(--black2);
+}
+:root:has(#night:checked) .contanier4{
+    background-color: var(--black3);
+}
+:root:has(#night:checked) .sec4{
+    background-color: var(--black3);
+}
+:root:has(#night:checked) path{
+    fill: #000000;
+ }
+ :root:has(#night:checked) body{
+    background-color: var(--black3);
+ }
+ :root:has(#night:checked) .head4 p{
+    color: var(--white);
+ }
+ :root:has(#night:checked) .head4 span{
+    color: var(--button-dark-color);
+ }
+ :root:has(#night:checked) .contact {
+    background-color: var(--black);
+ }
+ :root:has(#night:checked) .d1 p{
+    color: var(--white);
+ }
+ :root:has(#night:checked) .contact-icon{
+    
+    background-color: var(--button-dark-color);
+}
+:root:has(#night:checked) .fill-form {
+    background-color: var(--black);
+ }
+ :root:has(#night:checked) .input1:focus {
+   
+    border: 2px var(--button-dark-color) solid;
+}
+:root:has(#night:checked) .input2:focus {
+   
+    border: 2px var(--button-dark-color) solid;
+}
+:root:has(#night:checked) .input3:focus {
+   
+    border: 2px var(--button-dark-color) solid;
+}
+:root:has(#night:checked) .submit-butt {
+    background-color: var(--button-dark-color);
+}
+:root:has(#night:checked) button.submit-butt  {
+   
+   color: var(--dark-in-button);
+}
+:root:has(#night:checked) .contact-icon i{
+    
+    color: var(--dark-in-button);
+}
+:root:has(#night:checked) .b1  {
+   
+    color: var(--dark-in-button);
+ }
+ :root:has(#night:checked) .footer-email button  {
+   
+    background-color: var(--button-dark-color);
+}
+ :root:has(#night:checked)  .fa-envelope  {
+    color: var(--dark-in-button);
+ }
+:root:has(#night:checked)  .footer1 span {
+  
+   color: var(--button-dark-color);
+}
+:root:has(#night:checked)  nav {
+  
+   background-color: var(--black);
+}
+:root:has(#night:checked) .left-nav a {
+  
+    color: var(--white);
+}
+  :root:has(#night:checked) .left-nav span {
+  
+   color: var(--button-dark-color);
+}
+  :root:has(#night:checked) .right-nav a::after{
+    background-color: var(--button-dark-color)
+}
+:root:has(#night:checked) .moon{
+    display: none;
+}
+:root:has(#night:checked) .container1 .btt1gr:hover a{
+    background-color:var(--choclate);
+}
+:root:has(#night:checked) .submit-butt:hover {
+    background-color:var(--choclate);
+}
+:root:has(#night:checked) .footer-email button{
+    background-color:var(--button-dark-color);
+    
+    color:var(--black)
+    
+}
+:root:has(#night:checked) .footer-email button:hover{
+   background-color: var(--choclate);
+    
+}
+:root:has(#night:checked) .footer-email i{
+    
+    color:var(--black)
+}
+:root:has(#night:checked) .footericon i{
+    color: var(--button-dark-color);
+}
+:root:has(#night:checked) ::selection{
+    background-color: var(--button-dark-color);
+}
+:root:has(#night:checked) ::-webkit-scrollbar{
+   
+    width: 12px;   
+}
+:root:has(#night:checked) ::-webkit-scrollbar-thumb{
+   background-color: var(--button-dark-color);
+   border-radius: 20px;
+    
+    
+}
+:root:has(#night:checked) .right-nav a:hover{
+    color: var(--white);
+    
+}
+:root:has(#night:checked) .menu i{
+    color: var(--button-dark-color);
+}
+:root:has(#night:checked) .nav-menu a{
+    color: var(--gray);
+}
+:root:has(#night:checked) .menu-visible{
+    background-color: black;
+    border: gray;
+}
+:root:has(#night:checked) .nav-menu a::after{
+    background-color: var(--button-dark-color)
+}
+:root:has(#night:checked) .close-icon i{
+    color: var(--button-dark-color);
+}
+:root:has(#night:checked) .fa-circle-xmark:hover{
+    color: var(--choclate);
+}
